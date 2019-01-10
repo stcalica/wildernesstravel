@@ -1,0 +1,50 @@
+.body {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.trip-details {
+
+  text-align: center;
+
+}
+
+.trip-content {
+
+}
+
+.description {
+  text-overflow: ellipsis;
+  width: 100%;
+  height:3px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.itinerary {
+  width: 50%;
+  list-style-type: none;
+  border: solid 2px blue;
+
+}
+
+.trip-days {
+  width: 20%;
+  list-style-type: none;
+  border: solid 2px black;
+  font-size: 11px;
+}
+
+.trip-selection {
+  border: solid 2px black;
+
+}
